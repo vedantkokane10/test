@@ -1,0 +1,54 @@
+body {
+background-color: #ABDEE9;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+font-weight: bolder;
+text-shadow: 0.5px 0.5px 0.5px black;
+margin: 0;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 85vh;
+width: 100vw;
+}
+
+.left-part {
+margin-right: 0rem;
+}
+
+.left-part img {
+height: 500px; /* Set the desired height */
+width: auto; /* Maintain aspect ratio */
+align-items: center;
+padding-top: 5px;
+}
+
+.right-part {
+display: flex;
+flex-direction: column;
+align-items: center; /* Center align the text and button horizontally */
+text-align: center; /* Center align the paragraph text */
+}
+
+.right-part p {
+text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.login-button {
+width: 120px; /* Increased width for better appearance */
+height: 2.5rem;
+border-radius: 50px;
+border: none; /* Removed border */
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 1.2rem;
+background-color: #f3bd5a;
+margin-top: 20px; /* Added margin for spacing */
+cursor: pointer; /* Added cursor pointer */
+}

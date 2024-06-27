@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: orange;
+    align-items: center;
+    padding: 25px;
+    
+    width: 500px; /* Set a fixed width for uniform length */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.card-content a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1.0px 1.0px 1.0px black;
+}
